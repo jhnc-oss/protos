@@ -18,7 +18,6 @@ jobs:
         run: pip install -r requirements.txt
       - name: oelint-adv
         run: |
-          find . -type d \( -iname packagegroups \) -prune -false -o \
+          find . -type d \( -iname packagegroups -o -iname recipes-dummy \) -prune -false -o \
             \( -name "*.bb" -o -name "*.bbappend" \) \
             -exec oelint-adv {} +
-
