@@ -10,6 +10,7 @@ BBLAYERS ?= " \
    ${TOPDIR}/../meta-mingw \
    ${TOPDIR}/../meta-oe/meta-oe \
    ${TOPDIR}/../meta-oe/meta-python \
+   ${TOPDIR}/../protos \
    ${TOPDIR}/../meta-protos \
    ${TOPDIR}/../meta-protos/meta \
    ${TOPDIR}/../meta-protos/meta-oe \
