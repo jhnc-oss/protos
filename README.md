@@ -12,7 +12,7 @@ This layer depends on:
 | meta layer          | project repository                    |
 | ------------------- | ------------------------------------- |
 | poky                | [poky/dunfell](https://git.yoctoproject.org/cgit/cgit.cgi/poky/log/?h=dunfell)   |
-| poky                | [meta-protos](https://github.com/jhnc-oss/meta-protos)   |
+| meta-protos         | [meta-protos](https://github.com/jhnc-oss/meta-protos)   |
 | meta-clang          | [meta-clang/dunfell](https://github.com/jhnc-oss/meta-clang/tree/dunfell)        |
 | meta-mingw          | [meta-mingw/dunfell](https://github.com/jhnc-oss/meta-mingw/tree/dunfell)        |
 | meta-openembedded   | [meta-openembedded/dunfell](https://github.com/jhnc-oss/meta-openembedded/tree/dunfell)        |
