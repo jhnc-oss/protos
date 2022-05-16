@@ -17,6 +17,7 @@ BBLAYERS ?= " \
    ${TOPDIR}/../meta-python2 \
    ${TOPDIR}/../meta-python2-backport \
    ${TOPDIR}/../meta-qt5 \
+   ${TOPDIR}/../meta-rust \
    ${TOPDIR}/../meta-selinux \
    ${TOPDIR}/../poky/meta \
    ${TOPDIR}/../poky/meta-poky \
