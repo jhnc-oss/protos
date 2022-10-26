@@ -7,6 +7,7 @@ BBFILES ?= ""
 
 BBLAYERS ?= " \
     ${TOPDIR}/../meta-clang \
+    ${TOPDIR}/../meta-kf5 \
     ${TOPDIR}/../meta-mingw \
     ${TOPDIR}/../meta-oe/meta-filesystems \
     ${TOPDIR}/../meta-oe/meta-gnome \
@@ -20,10 +21,8 @@ BBLAYERS ?= " \
     ${TOPDIR}/../meta-oe/meta-xfce \
     ${TOPDIR}/../meta-protos \
     ${TOPDIR}/../meta-protos/meta \
-    ${TOPDIR}/../meta-protos/meta-python \
     ${TOPDIR}/../meta-protos/meta-oe \
-    ${TOPDIR}/../meta-python2 \
-    ${TOPDIR}/../meta-python2-backport \
+    ${TOPDIR}/../meta-protos/meta-python \
     ${TOPDIR}/../meta-qt5 \
     ${TOPDIR}/../meta-rust \
     ${TOPDIR}/../meta-selinux \
