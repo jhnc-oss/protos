@@ -10,8 +10,12 @@ BBLAYERS ?= " \
    ${TOPDIR}/../meta-mingw \
    ${TOPDIR}/../meta-oe/meta-oe \
    ${TOPDIR}/../meta-oe/meta-python \
+   ${TOPDIR}/../meta-oe/meta-networking \
+   ${TOPDIR}/../meta-oe/meta-multimedia \
+   ${TOPDIR}/../meta-oe/meta-gnome \
    ${TOPDIR}/../protos \
    ${TOPDIR}/../meta-protos \
+   ${TOPDIR}/../meta-protos/meta-xfce \
    ${TOPDIR}/../meta-protos/meta \
    ${TOPDIR}/../meta-protos/meta-oe \
    ${TOPDIR}/../meta-python2 \
