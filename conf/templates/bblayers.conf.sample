@@ -6,20 +6,28 @@ BBPATH = "${TOPDIR}"
 BBFILES ?= ""
 
 BBLAYERS ?= " \
-   ${TOPDIR}/../meta-clang \
-   ${TOPDIR}/../meta-mingw \
-   ${TOPDIR}/../meta-oe/meta-oe \
-   ${TOPDIR}/../meta-oe/meta-python \
-   ${TOPDIR}/../protos \
-   ${TOPDIR}/../meta-protos \
-   ${TOPDIR}/../meta-protos/meta \
-   ${TOPDIR}/../meta-protos/meta-oe \
-   ${TOPDIR}/../meta-python2 \
-   ${TOPDIR}/../meta-python2-backport \
-   ${TOPDIR}/../meta-qt5 \
-   ${TOPDIR}/../meta-rust \
-   ${TOPDIR}/../meta-selinux \
-   ${TOPDIR}/../poky/meta \
-   ${TOPDIR}/../poky/meta-poky \
-   ${TOPDIR}/../poky/meta-yocto-bsp \
+    ${TOPDIR}/../meta-clang \
+    ${TOPDIR}/../meta-mingw \
+    ${TOPDIR}/../meta-oe/meta-filesystems \
+    ${TOPDIR}/../meta-oe/meta-gnome \
+    ${TOPDIR}/../meta-oe/meta-initramfs \
+    ${TOPDIR}/../meta-oe/meta-multimedia \
+    ${TOPDIR}/../meta-oe/meta-networking \
+    ${TOPDIR}/../meta-oe/meta-oe \
+    ${TOPDIR}/../meta-oe/meta-perl \
+    ${TOPDIR}/../meta-oe/meta-python \
+    ${TOPDIR}/../meta-oe/meta-webserver \
+    ${TOPDIR}/../meta-oe/meta-xfce \
+    ${TOPDIR}/../meta-protos \
+    ${TOPDIR}/../meta-protos/meta \
+    ${TOPDIR}/../meta-protos/meta-oe \
+    ${TOPDIR}/../meta-python2 \
+    ${TOPDIR}/../meta-python2-backport \
+    ${TOPDIR}/../meta-qt5 \
+    ${TOPDIR}/../meta-rust \
+    ${TOPDIR}/../meta-selinux \
+    ${TOPDIR}/../poky/meta \
+    ${TOPDIR}/../poky/meta-poky \
+    ${TOPDIR}/../poky/meta-yocto-bsp \
+    ${TOPDIR}/../protos \
 "
