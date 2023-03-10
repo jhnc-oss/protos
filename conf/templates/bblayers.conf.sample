@@ -20,6 +20,7 @@ BBLAYERS ?= " \
     ${TOPDIR}/../meta-oe/meta-xfce \
     ${TOPDIR}/../meta-protos \
     ${TOPDIR}/../meta-protos/meta \
+    ${TOPDIR}/../meta-protos/meta-python \
     ${TOPDIR}/../meta-protos/meta-oe \
     ${TOPDIR}/../meta-python2 \
     ${TOPDIR}/../meta-python2-backport \
