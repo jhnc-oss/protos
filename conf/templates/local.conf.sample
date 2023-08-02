@@ -10,7 +10,7 @@ baselib = "${@d.getVar('BASE_LIB_tune-' + (d.getVar('DEFAULTTUNE') \
 PATCHRESOLVE = "noop"
 
 EXTRA_IMAGE_FEATURES ?= "debug-tweaks"
-USER_CLASSES ?= "buildstats image-mklibs image-prelink"
+USER_CLASSES ?= "buildstats"
 
 PACKAGE_CLASSES ?= "package_rpm"
 
@@ -21,6 +21,6 @@ BB_GENERATE_MIRROR_TARBALLS = "1"
 
 INHERIT += "build_settings"
 
-PACKAGECONFIG_append_pn-qemu-system-native = " sdl"
+PACKAGECONFIG:append_pn-qemu-system-native = " sdl"
 
-CONF_VERSION = "1"
+CONF_VERSION = "2"
