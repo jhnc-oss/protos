@@ -22,6 +22,7 @@ BBLAYERS ?= " \
     ${TOPDIR}/../meta-protos \
     ${TOPDIR}/../meta-protos/meta \
     ${TOPDIR}/../meta-protos/meta-oe \
+    ${TOPDIR}/../meta-protos/meta-python \
     ${TOPDIR}/../meta-qt5 \
     ${TOPDIR}/../meta-rust \
     ${TOPDIR}/../meta-selinux \
