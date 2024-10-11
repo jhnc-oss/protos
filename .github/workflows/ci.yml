@@ -20,4 +20,4 @@ jobs:
         run: |
           find . -type d \( -iname packagegroups -o -iname recipes-dummy \) -prune -false -o \
             \( -name "*.bb" -o -name "*.bbappend" \) \
-            -exec oelint-adv {} +
+            -exec oelint-adv {} \;

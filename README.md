@@ -5,12 +5,13 @@
 
 Repository of the Protos Yocto distribution.
 
-- [**meta-protos**](https://github.com/jhnc-oss/meta-protos): Meta layer
+- [**meta-protos**](https://github.com/jhnc-oss/protos/tree/scarthgap/meta-protos): Meta layer
 - [**yocto-manifest**](https://github.com/jhnc-oss/yocto-manifests): Repository manifest
 
 ## Available Versions
 
 | Yocto Release Branch | Status | Note |
 |:--------------------:|:------:|------|
+| **`scarthgap`**      | :heavy_check_mark: LTS | |
 | **`kirkstone`**      | :heavy_check_mark: LTS | :arrows_clockwise: Synced from `main` — *do not contribute directly* |
-| **`dunfell`**        | :heavy_check_mark: LTS | |
+| **`dunfell`**        | :heavy_check_mark: LTS | EOL (May 2024) |
