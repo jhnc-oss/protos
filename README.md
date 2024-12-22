@@ -5,7 +5,6 @@
 
 Repository of the Protos Yocto distribution.
 
-- [**meta-protos**](https://github.com/jhnc-oss/protos/tree/scarthgap/meta-protos): Meta layer
 - [**yocto-manifest**](https://github.com/jhnc-oss/yocto-manifests): Repository manifest
 
 ## Available Versions
