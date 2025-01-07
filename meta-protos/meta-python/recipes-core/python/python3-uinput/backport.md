@@ -1,5 +1,5 @@
 # Backport
 
-Available with *meta-python > langdale (Yocto Project 4.1)*.
+Available with *meta-python / master*.
 
-Upstream revision: `3f2aee1b080e2f9ab2d0a7326581dad2f07ca6ef`
+Upstream revision: `80650fefd60e7cde42eb57d55ed74cb8523ce89a`
