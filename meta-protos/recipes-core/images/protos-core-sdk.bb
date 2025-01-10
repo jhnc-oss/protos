@@ -1,6 +1,8 @@
 SUMMARY = "PROTOS core SDK"
 DESCRIPTION = "PROTOS core SDK suitable for development work."
 HOMEPAGE = "https://github.com/jhnc-oss/protos"
+BUGTRACKER = "https://github.com/jhnc-oss/protos/issues"
+SECTION = "development"
 LICENSE = "MIT"
 
 CVE_PRODUCT = ""
@@ -38,3 +40,4 @@ GCC_VERSION = "gcc133"
 TOOLCHAIN_OUTPUTNAME = "${DISTRO}-${SDKMACHINE}-toolchain-${GCC_VERSION}-${MACHINE}-${DISTRO_VERSION}"
 TOOLCHAINEXT_OUTPUTNAME = "${DISTRO}-${SDKMACHINE}-toolchain-ext-${GCC_VERSION}-${MACHINE}-${DISTRO_VERSION}"
 
+BBCLASSEXTEND = ""
