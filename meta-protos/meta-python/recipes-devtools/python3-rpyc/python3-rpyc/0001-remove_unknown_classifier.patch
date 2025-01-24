@@ -1,0 +1,18 @@
+Remove unknown project classifier
+
+Upstream-Status: Inappropriate [oe-specific]
+Signed-off-by: jhnc-oss
+
+----
+diff --git a/pyproject.toml b/pyproject.toml
+index 416946b..595300a 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -27,7 +27,6 @@ classifiers = [
+     "Programming Language :: Python :: 3.11",
+     "Programming Language :: Python :: 3.12",
+     "Programming Language :: Python :: 3.13",
+-    "Programming Language :: Python :: 3.14",
+     "Topic :: Internet",
+     "Topic :: Software Development :: Libraries :: Python Modules",
+     "Topic :: Software Development :: Object Brokering",
