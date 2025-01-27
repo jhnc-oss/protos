@@ -8,5 +8,7 @@ inherit pypi python_flit_core
 
 PYPI_PACKAGE = "exceptiongroup"
 
+DEPENDS += "python3-flit-scm-native"
+
 BBCLASSEXTEND = "native nativesdk"
 
