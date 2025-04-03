@@ -1,2 +1,4 @@
 # Backports from newer Yocto releases
 meta-protos/meta-python/recipes-core/python/python3-uinput/
+meta-protos/meta-python/recipes-devtools/python3-nanobind/
+meta-protos/meta-python/recipes-devtools/python3-scikit-build-core/
