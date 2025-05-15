@@ -6,7 +6,7 @@ SRC_URI = "\
     git://github.com/FreeSpacenav/libspnav.git;protocol=https;branch=master \
     file://configure_libdir.patch \
 "
-SRCREV = "1716ccf15fa59a3acaeb9805262fc23613fd6a40"
+SRCREV = "d641e5cbbe0d6d2381a2ee8d95c8c7273d005272"
 
 S = "${WORKDIR}/git"
 
