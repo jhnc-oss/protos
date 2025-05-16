@@ -11,11 +11,11 @@ LIC_FILES_CHKSUM = "\
     file://src/algs/bobyqa/COPYRIGHT;md5=700dca4c1a2d3517d2e372b064b09ec5 \
     file://src/algs/ags/COPYRIGHT;md5=df8018c0130b3c4b5961d163c169567b \
     file://COPYRIGHT;md5=1b4ae9cf9d4ec57f6dc120948e9b483a \
-    file://COPYING;md5=7036bf07f719818948a837064b1af213 \
+    file://COPYING;md5=bd64d5de9621ced0bbf488c45413e534 \
 "
 
 SRC_URI = "git://github.com/stevengj/nlopt.git;protocol=https;branch=master"
-SRCREV = "09b3c2a6da71cabcb98d2c8facc6b83d2321ed71"
+SRCREV = "7d04da19236148f9ae9d8dfa470a2264f5d2aa33"
 
 S = "${WORKDIR}/git"
 

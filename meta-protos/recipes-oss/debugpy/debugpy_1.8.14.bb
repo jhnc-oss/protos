@@ -9,10 +9,10 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=7b6b095fe2a2e2b66cb08d295b605789"
 
 CVE_PRODUCT = ""
 
-SRC_URI[sha256sum] = "12af2c55b419521e33d5fb21bd022df0b5eb267c3e178f1d374a63a2a6bdccd0"
+SRC_URI[sha256sum] = "7cd287184318416850aa8b60ac90105837bb1e59531898c07569d197d2ed5322"
 
 PYPI_PACKAGE = "debugpy"
-PYPI_PACKAGE_EXT = "zip"
+PYPI_PACKAGE_EXT = "tar.gz"
 
 def get_so_suffix(d):
     arch = d.getVar('MACHINE_ARCH')
