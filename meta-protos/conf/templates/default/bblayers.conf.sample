@@ -19,7 +19,6 @@ BBLAYERS ?= " \
     ${TOPDIR}/../meta-oe/meta-python \
     ${TOPDIR}/../meta-oe/meta-webserver \
     ${TOPDIR}/../meta-oe/meta-xfce \
-    ${TOPDIR}/../meta-qt5 \
     ${TOPDIR}/../meta-qt6 \
     ${TOPDIR}/../meta-security \
     ${TOPDIR}/../meta-selinux \
