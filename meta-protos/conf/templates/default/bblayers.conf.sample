@@ -22,9 +22,9 @@ BBLAYERS ?= " \
     ${TOPDIR}/../meta-qt6 \
     ${TOPDIR}/../meta-security \
     ${TOPDIR}/../meta-selinux \
-    ${TOPDIR}/../poky/meta \
-    ${TOPDIR}/../poky/meta-poky \
-    ${TOPDIR}/../poky/meta-yocto-bsp \
+    ${TOPDIR}/../openembedded-core/meta \
+    ${TOPDIR}/../meta-yocto/meta-poky \
+    ${TOPDIR}/../meta-yocto/meta-yocto-bsp \
     ${TOPDIR}/../protos \
     ${TOPDIR}/../protos/meta-protos \
     ${TOPDIR}/../protos/meta-protos/meta \
