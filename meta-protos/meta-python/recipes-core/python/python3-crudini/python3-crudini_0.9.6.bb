@@ -1,6 +1,5 @@
 SUMMARY = "An utility for manipulating ini files"
 DESCRIPTION = "CLI utility for ini file manipulation"
-AUTHOR = "pixelb"
 HOMEPAGE = "https://github.com/pixelb/crudini"
 BUGTRACKER = "https://github.com/pixelb/crudini/issues"
 SECTION = "development"

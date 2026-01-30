@@ -1,6 +1,5 @@
 SUMMARY = "A debugger for Python 3"
 DESCRIPTION = "An implementation of the Debug Adapter Protocol for Python 3"
-AUTHOR = "Microsoft Corporation"
 HOMEPAGE = "https://github.com/microsoft/debugpy/"
 BUGTRACKER = "https://github.com/microsoft/debugpy/issues"
 SECTION = "devel"
