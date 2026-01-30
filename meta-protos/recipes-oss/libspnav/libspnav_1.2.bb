@@ -8,8 +8,6 @@ SRC_URI = "\
 "
 SRCREV = "d641e5cbbe0d6d2381a2ee8d95c8c7273d005272"
 
-S = "${WORKDIR}/git"
-
 inherit autotools-brokensep
 
 EXTRA_OECONF += "\
