@@ -1,6 +1,5 @@
 SUMMARY = "Dummy recipe (does nothing)"
 DESCRIPTION = "Placeholder to avoid 'no .bb files' warnings – does nothing"
-AUTHOR = "protos"
 HOMEPAGE = "https://github.com/jhnc-oss/protos"
 BUGTRACKER = "https://github.com/jhnc-oss/protos/issues"
 SECTION = "none"
