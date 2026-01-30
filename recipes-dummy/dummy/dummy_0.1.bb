@@ -5,6 +5,9 @@ BUGTRACKER = "https://github.com/jhnc-oss/protos/issues"
 SECTION = "none"
 LICENSE = "MIT"
 
+# Recipe has no source
+SRC_URI = ""
+
 BBCLASSEXTEND = ""
 CVE_PRODUCT = ""
 
