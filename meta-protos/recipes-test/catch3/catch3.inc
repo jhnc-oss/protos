@@ -5,5 +5,3 @@ BUGTRACKER = "https://github.com/catchorg/Catch2/issues"
 SECTION = "development"
 LICENSE = "BSL-1.0"
 
-CVE_PRODUCT = ""
-
