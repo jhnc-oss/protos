@@ -5,4 +5,3 @@ BUGTRACKER = "https://github.com/dmtx/libdmtx/issues"
 SECTION = "development"
 LICENSE = "BSD-2-Clause"
 
-CVE_PRODUCT = ""

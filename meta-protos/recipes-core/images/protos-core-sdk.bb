@@ -5,8 +5,6 @@ BUGTRACKER = "https://github.com/jhnc-oss/protos/issues"
 SECTION = "development"
 LICENSE = "MIT"
 
-CVE_PRODUCT = ""
-
 inherit populate_sdk
 
 SDKIMAGE_FEATURES:append = " dev-pkgs tools-sdk staticdev-pkgs"

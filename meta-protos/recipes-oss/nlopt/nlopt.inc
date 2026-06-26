@@ -5,4 +5,3 @@ BUGTRACKER = "https://github.com/stevengj/nlopt/issues"
 SECTION = "development"
 LICENSE = "LGPL-2.0-or-later"
 
-CVE_PRODUCT = ""

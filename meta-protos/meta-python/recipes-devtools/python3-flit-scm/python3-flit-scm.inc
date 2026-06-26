@@ -5,5 +5,3 @@ BUGTRACKER = "https://gitlab.com/WillDaSilva/flit_scm/-/issues"
 SECTION = "development"
 LICENSE = "MIT"
 
-CVE_PRODUCT = ""
-

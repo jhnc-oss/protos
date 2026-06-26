@@ -9,7 +9,6 @@ LICENSE = "MIT"
 SRC_URI = ""
 
 BBCLASSEXTEND = ""
-CVE_PRODUCT = ""
 
 do_show_info[doc] = "Dummy - does nothing"
 python do_show_info() {
