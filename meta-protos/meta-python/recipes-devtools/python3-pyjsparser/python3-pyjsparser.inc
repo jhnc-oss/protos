@@ -4,5 +4,3 @@ HOMEPAGE = "https://github.com/PiotrDabkowski/pyjsparser"
 BUGTRACKER = "https://github.com/PiotrDabkowski/pyjsparser/issues"
 SECTION = "development"
 LICENSE = "MIT"
-
-CVE_PRODUCT = ""
