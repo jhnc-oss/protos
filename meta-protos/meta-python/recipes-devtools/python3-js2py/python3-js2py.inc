@@ -5,5 +5,3 @@ BUGTRACKER = "https://github.com/PiotrDabkowski/Js2Py/issues"
 SECTION = "development"
 LICENSE = "MIT"
 
-CVE_PRODUCT = ""
-

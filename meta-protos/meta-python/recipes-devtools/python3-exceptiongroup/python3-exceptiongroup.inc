@@ -5,5 +5,3 @@ BUGTRACKER = "https://github.com/agronholm/exceptiongroup/issues"
 SECTION = "development"
 LICENSE = "MIT"
 
-CVE_PRODUCT = ""
-

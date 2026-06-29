@@ -5,5 +5,3 @@ BUGTRACKER = "https://github.com/tomerfiliba-org/rpyc/issues"
 SECTION = "development"
 LICENSE = "MIT"
 
-CVE_PRODUCT = ""
-

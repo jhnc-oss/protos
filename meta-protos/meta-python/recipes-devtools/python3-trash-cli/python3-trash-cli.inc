@@ -5,4 +5,3 @@ BUGTRACKER = "https://github.com/andreafrancia/trash-cli/issues"
 SECTION = "tools"
 LICENSE = "GPL-2.0-only"
 
-CVE_PRODUCT = ""

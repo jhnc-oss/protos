@@ -5,4 +5,3 @@ BUGTRACKER = "https://github.com/FreeSpacenav/libspnav/issues"
 SECTION = "development"
 LICENSE = "BSD-3-Clause"
 
-CVE_PRODUCT = ""

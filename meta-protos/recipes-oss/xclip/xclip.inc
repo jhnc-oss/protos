@@ -5,4 +5,3 @@ BUGTRACKER = "https://github.com/astrand/xclip/issues"
 SECTION = "tools"
 LICENSE = "GPL-2.0-or-later"
 
-CVE_PRODUCT = ""

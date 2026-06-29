@@ -5,5 +5,3 @@ BUGTRACKER = "https://github.com/tomerfiliba/plumbum/issues"
 SECTION = "development"
 LICENSE = "MIT"
 
-CVE_PRODUCT = ""
-
