@@ -13,7 +13,7 @@ DEPENDS += "\
 
 SRC_URI[sha256sum] = "c2af311a0833857a1449d821a312edc6109f0c2d6d81d76c2d954a76b05e6b14"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta
 
 RDEPENDS:${PN} += "python3-iniparse"
 
