@@ -6,17 +6,15 @@ SRC_URI[sha256sum] = "20e44828861190f70944e5f89f6dfbe71d439a360f149fe9cce2537743
 
 PYPI_PACKAGE = "profinet_py"
 
+inherit pypi python_setuptools_build_meta
+
 do_configure:append() {
     sed -i \
-        -e 's/^license = "\(.*\)"/license = { text = "\1" }/' \
+        -E -e 's/^license = "([^"]*)"/license = { text = "\1" }/' \
         -e '/^license-files = /d' \
         ${S}/pyproject.toml
 }
 
-RDEPENDS:${PN} = " \
-    python3-construct (>=2.10) \
-"
+RDEPENDS:${PN} = "python3-construct (>=2.10)"
 
-inherit pypi python_setuptools_build_meta
-
-BBCLASSEXTEND += "nativesdk"
+BBCLASSEXTEND = "native nativesdk"

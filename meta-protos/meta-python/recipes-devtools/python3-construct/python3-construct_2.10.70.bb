@@ -8,4 +8,4 @@ PYPI_PACKAGE = "construct"
 
 inherit pypi python_setuptools_build_meta
 
-BBCLASSEXTEND += "nativesdk"
+BBCLASSEXTEND = "native nativesdk"
