@@ -1,0 +1,6 @@
+SUMMARY = "Declarative parser/builder for binary data"
+DESCRIPTION = "Construct is a powerful declarative and symmetrical parser and builder for binary data."
+HOMEPAGE = "https://construct.readthedocs.io"
+BUGTRACKER = "https://github.com/construct/construct/issues"
+SECTION = "development"
+LICENSE = "MIT"
