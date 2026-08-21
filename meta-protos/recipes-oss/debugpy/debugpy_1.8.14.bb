@@ -23,7 +23,7 @@ def get_so_suffix(d):
     bb.error("Unsupported architecture")
 
 do_compile:append() {
-    cd ${WORKDIR}/${PN}-${PV}/src/${PN}/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac
+    cd ${S}/src/${PN}/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac
     ${CXX} ${LDFLAGS} -std=c++11 -shared -fPIC -nostartfiles attach.cpp -o attach_linux_${@get_so_suffix(d)}.so
 }
 
