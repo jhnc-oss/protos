@@ -9,7 +9,7 @@ LIC_FILES_CHKSUM = "file://LICENSE.md;md5=bf70af7320ef4b73e22b21cb72e738fa"
 
 DEPENDS = "\
     fmt \
-    microsoft-gsl \
+    gsl-lite \
 "
 
 SRC_URI = "git://github.com/mpusz/mp-units.git;protocol=https;branch=master"
