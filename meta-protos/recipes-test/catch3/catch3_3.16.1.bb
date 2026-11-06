@@ -3,7 +3,7 @@ require ${PN}.inc
 LIC_FILES_CHKSUM = "file://LICENSE.txt;md5=e4224ccaecb14d942c71d31bef20d78c"
 
 SRC_URI = "git://github.com/catchorg/Catch2.git;protocol=https;nobranch=1"
-SRCREV = "317ac1ed4c0bb6e6b91eafc817e05c488feffcb3"
+SRCREV = "08092139210881f01a34e60c5f2fd6afa0ea4024"
 
 inherit cmake
 
