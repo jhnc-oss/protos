@@ -11,7 +11,7 @@ Repository of the Protos Yocto distribution.
 
 | Yocto Release Branch | Status | Note |
 |:--------------------:|:------:|------|
-| **`wrynose`**        | :heavy_check_mark: LTS | |
-| **`scarthgap`**      | :heavy_check_mark: LTS | :arrows_clockwise: Synced from `main` — *do not contribute directly* |
+| **`wrynose`**        | :heavy_check_mark: LTS | :arrows_clockwise: Synced from `main` — *do not contribute directly* |
+| **`scarthgap`**      | :heavy_check_mark: LTS | |
 | **`kirkstone`**      | :heavy_check_mark: LTS | |
 | **`dunfell`**        | :heavy_check_mark: LTS | EOL (May 2024) |
