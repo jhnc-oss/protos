@@ -10,8 +10,6 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=50d8e8c330913e8c1efd822288399a9a"
 SRC_URI = "git://github.com/gsl-lite/gsl-lite.git;protocol=https;branch=master"
 SRCREV = "b19adc1ffe61b05d8c8858dc824edb7c15da68fc"
 
-S = "${WORKDIR}/git"
-
 inherit cmake
 
 # Header-only library

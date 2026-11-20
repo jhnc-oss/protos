@@ -17,8 +17,6 @@ LIC_FILES_CHKSUM = "\
 SRC_URI = "git://github.com/stevengj/nlopt.git;protocol=https;branch=master"
 SRCREV = "7d04da19236148f9ae9d8dfa470a2264f5d2aa33"
 
-S = "${WORKDIR}/git"
-
 inherit cmake
 
 EXTRA_OECMAKE += "\

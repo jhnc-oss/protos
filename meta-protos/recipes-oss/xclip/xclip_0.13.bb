@@ -10,8 +10,6 @@ DEPENDS += "\
 SRC_URI = "git://github.com/astrand/xclip.git;protocol=https;nobranch=1"
 SRCREV = "9aa7090c3b8b437c6489edca32ae43d82e0c1281"
 
-S = "${WORKDIR}/git"
-
 inherit autotools-brokensep
 
 BBCLASSEXTEND = "native nativesdk"

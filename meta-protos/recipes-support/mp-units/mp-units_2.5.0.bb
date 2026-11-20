@@ -8,20 +8,20 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE.md;md5=bf70af7320ef4b73e22b21cb72e738fa"
 
 DEPENDS = "\
-    fmt \
     gsl-lite \
 "
 
 SRC_URI = "git://github.com/mpusz/mp-units.git;protocol=https;branch=master"
 SRCREV = "27d2def9082ce00d7eb4f75695dbead4a748f23f"
 
-S = "${WORKDIR}/git"
-
 inherit cmake
 
 EXTRA_OECMAKE += "\
+    -DCMAKE_CXX_STANDARD=23 \
+    -DCMAKE_CXX_STANDARD_REQUIRED=ON \
+    -DCMAKE_CXX_EXTENSIONS=OFF \
     -DMP_UNITS_API_CONTRACTS=GSL-LITE \
-    -DMP_UNITS_API_STD_FORMAT=OFF \
+    -DMP_UNITS_API_STD_FORMAT=ON \
 "
 
 # Avoid building unit tests

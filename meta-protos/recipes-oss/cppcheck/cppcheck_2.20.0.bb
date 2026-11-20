@@ -6,8 +6,6 @@ DEPENDS += "libpcre"
 SRC_URI = "git://github.com/danmar/cppcheck.git;protocol=https;nobranch=1"
 SRCREV = "502c802a69c78f3d8cfd9973aa2108ae169c73b5"
 
-S = "${WORKDIR}/git"
-
 inherit cmake
 
 EXTRA_OECMAKE = "\
